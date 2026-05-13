@@ -45,7 +45,7 @@ const Products = () => {
       : ProductData.filter((elm) => elm.category === change)
 
   return (
-    <section className="py-16">
+    <section id="products" className="min-h-screen py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl font-bold">

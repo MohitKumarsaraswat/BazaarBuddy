@@ -5,7 +5,7 @@ import { FaShieldAlt } from "react-icons/fa";
 import { GrGrow } from "react-icons/gr";
 const Values = () => {
   return (
-    <div className='mx-25 mb-20'>
+    <div id="about" className='mx-25 min-h-screen '>
         {/* Value heading */}
         <div className="  mt-25 mb-25  flex items-center justify-center">
         <h1 className="text-4xl font-bold ">

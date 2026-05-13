@@ -6,10 +6,10 @@ const Navbar = () => {
     <nav className="flex items-center justify-between px-10 py-2 bg-white shadow-md fixed top-0 left-0 w-full ">
       <h1 className="text-2xl font-bold text-gray-800">Bazaar<span className="text-orange-500">Buddy</span></h1>
       <ul className="flex items-center gap-x-10">
-        <li className="text-gray-700 hover:text-orange-500 cursor-pointer">Home</li>
-        <li className="text-gray-700 hover:text-orange-500 cursor-pointer">About Us</li>
-        <li className="text-gray-700 hover:text-orange-500 cursor-pointer">Process</li>
-        <li className="text-gray-700 hover:text-orange-500 cursor-pointer">Contact Us</li>
+        <a href= "#home" className="text-gray-700 hover:text-orange-500 cursor-pointer">Home</a>
+        <a href="#about" className="text-gray-700 hover:text-orange-500 cursor-pointer">About Us</a>
+        <a href="#process" className="text-gray-700 hover:text-orange-500 cursor-pointer">Process</a>
+        <a href="#contact" className="text-gray-700 hover:text-orange-500 cursor-pointer">Contact Us</a>
       </ul>
       <div className="flex items-center gap-x-4">
         <div className="flex items-center border-2 border-orange-500 rounded-full p-2 bg-gray-50">

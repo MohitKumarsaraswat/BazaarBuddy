@@ -3,8 +3,9 @@ import React from "react";
 const Catagory = (props) => {
   const CatagoryData = CardData.map((elm) => {
     return (
+      
         // catagory Data mapping
-      <div className="mx-10 mt-15 bg-gray-100" key={elm.id}>
+      <div id="Catagory"className="mx-10  bg-gray-100" key={elm.id}>
         <img  className=' flex h-80 w-80 items-center ml-7' src={elm.image}></img>
         <div className=" text-m p-4">
             <h1 className=" flex font-bold justify-center text-xl ">{elm.title}</h1>

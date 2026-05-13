@@ -2,7 +2,7 @@ import React from 'react'
 import Heroimage from'../assets/Heroimage.png'
 const Hero = () => {
   return (
-     <section className='px-10 flex items-center justify-between mt-30'>
+     <section  id='home' className='px-10 flex items-center justify-between mt-30'>
     <div className=''>
             <span className='bg-orange-300 rounded-full items-center  px-4 py-1 '>Export best items....</span>
             <h1 className='text-6xl font-bold uppercase'>Tasty Organic <br/><span  className='text-orange-500'>Fruits</span> & <span className='text-orange-500' >veggies</span> In <br/>your city

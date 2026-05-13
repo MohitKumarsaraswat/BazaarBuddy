@@ -34,7 +34,7 @@ const Data = arr.map((elm)=>{
 })
 const CustomerReview = () => {
   return (
-    <div className="mx-10 mb-25">
+    <div className="mx-10 min-h-screen">
          <div className="  mt-10 flex items-center justify-center mb-20">
         <h1 className="text-4xl font-bold ">
           Customer <span className="text-orange-500">Review</span>

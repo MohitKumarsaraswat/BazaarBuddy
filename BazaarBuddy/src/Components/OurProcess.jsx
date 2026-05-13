@@ -35,7 +35,7 @@ const arr =[
 ]
     const Process = arr.map((elm)=>{
         return(
-            <div key={elm.id} className=' mb-40'>
+            <div key={elm.id} className=' min-h-screen'>
                 {/* button */}
                 <div className='flex items-center mx-20 mb-20'>
                 <div className=' border-3 border-dashed rounded-full h-fit  w-fit  flex  items-center justify-center '>
