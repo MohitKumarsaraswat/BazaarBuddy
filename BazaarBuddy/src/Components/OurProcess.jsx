@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { PiPlant } from "react-icons/pi";
 import { MdFactory } from "react-icons/md";
 import { FaTruck } from "react-icons/fa";

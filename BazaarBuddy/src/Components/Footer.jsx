@@ -2,7 +2,7 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 const Footer = () => {
   return (
-    <section className="bg-zinc-100 px-15 py-15 ">
+    <section className="bg-zinc-400 px-15 py-15 ">
       <div className="flex mx-10 justify-between  mb-20">
         {/* First div */}
         <div className="">

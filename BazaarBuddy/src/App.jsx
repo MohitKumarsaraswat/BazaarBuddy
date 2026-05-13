@@ -6,6 +6,7 @@ import Products from './Components/Products'
 import OurProcess from './Components/OurProcess'
 import CustomerReview from './Components/CustomerReview'
 import Footer from './Components/Footer'
+import {BrowserRouter} from 'react-router-dom'
 const App = () => {
   return (
     <div className="min-h-screen ">
@@ -17,9 +18,6 @@ const App = () => {
       <OurProcess/>
       <CustomerReview/>
       <Footer/>
-
-
-
     </div>
   )
 }
